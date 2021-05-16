@@ -78,7 +78,7 @@ class MealItem extends StatelessWidget {
                     topRight: Radius.circular(15),
                     topLeft: Radius.circular(15),
                   ),
-                  child: Image.network(
+                  child: Image.asset(
                     imageUrl,
                     height: 250,
                     width: double.infinity,
